@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.fea28ec8.css",
-    "main.js": "/portfolio/static/js/main.2fa60499.js",
+    "main.css": "/portfolio/static/css/main.f5c467e0.css",
+    "main.js": "/portfolio/static/js/main.c203d415.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/SourceCodePro-Bold.woff": "/portfolio/static/media/SourceCodePro-Bold.2fd43fb4cbefa9175667.woff",
     "static/media/SourceCodePro-Regular.woff": "/portfolio/static/media/SourceCodePro-Regular.186da05a848f7501a9a4.woff",
@@ -11,12 +11,12 @@
     "static/media/SourceCodePro-Black.woff": "/portfolio/static/media/SourceCodePro-Black.80a413ef85118fe699e7.woff",
     "static/media/SourceCodePro-ExtraLight.woff": "/portfolio/static/media/SourceCodePro-ExtraLight.5d41d13c63f410dcf0d1.woff",
     "index.html": "/portfolio/index.html",
-    "main.fea28ec8.css.map": "/portfolio/static/css/main.fea28ec8.css.map",
-    "main.2fa60499.js.map": "/portfolio/static/js/main.2fa60499.js.map",
+    "main.f5c467e0.css.map": "/portfolio/static/css/main.f5c467e0.css.map",
+    "main.c203d415.js.map": "/portfolio/static/js/main.c203d415.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fea28ec8.css",
-    "static/js/main.2fa60499.js"
+    "static/css/main.f5c467e0.css",
+    "static/js/main.c203d415.js"
   ]
 }
