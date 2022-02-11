@@ -1,0 +1,52 @@
+// ? Media Queries
+// Based on Bootstrap breakpoints
+
+// * X-Small = Less than 576px - small mobile devices
+@mixin x-small {
+  @media (max-width: 576px) {
+    @content;
+  }
+}
+
+// * Small = Less than 768px - mobile devices
+@mixin small {
+  @media (min-width: 577px) and (max-width: 768px) {
+    @content;
+  }
+}
+
+// * Medium = Less than 992px - tablets
+@mixin medium {
+  @media (min-width: 769px) and (max-width: 992px) {
+    @content;
+  }
+}
+
+// * Large = Less than 1200px - small desktops
+@mixin large {
+  @media (min-width: 993px) and (max-width: 1200px) {
+    @content;
+  }
+}
+
+// * Extra Large = Less than 1399px - medium desktops
+@mixin extra-large {
+  @media (min-width: 1201px) and (max-width: 1399px) {
+    @content;
+  }
+}
+
+// * Extra EXTRA Large = More than 1400px - medium desktops
+@mixin extra-extra-large {
+  @media (min-width: 1400px) {
+    @content;
+  }
+}
+
+// ? Special Media Query just for calendar on extra small devices
+
+@mixin extra-extra-small {
+  @media (max-width: 320px) {
+    @content;
+  }
+}

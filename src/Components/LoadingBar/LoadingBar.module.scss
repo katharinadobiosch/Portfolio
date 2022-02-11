@@ -1,0 +1,79 @@
+@import "../../Styling/variables.module";
+@import "../../Styling/mixins.module";
+@import "../../Styling/fonts.module";
+@import "../../Styling/reset.module";
+
+.loading-bar {
+    // overflow: hidden;
+    // position: absolute;
+    width: 100vw;
+    height: 0.5vh;
+    background: $nearlyBlack;
+
+    z-index: 10;
+    animation: loader 1s ease;
+}
+
+@keyframes loader {
+    0% {
+        width: 0;
+    }
+    20% {
+        width: 10%;
+    }
+    25% {
+        width: 24%;
+    }
+    43% {
+        width: 41%;
+    }
+    56% {
+        width: 50%;
+    }
+    66% {
+        width: 52%;
+    }
+    71% {
+        width: 60%;
+    }
+    75% {
+        width: 76%;
+    }
+    94% {
+        width: 86%;
+    }
+    99% {
+        width: 99%;
+    }
+    100% {
+        width: 100%;
+        background: $pink;
+    }
+}
+
+// ? Media Queries
+// Based on Bootstrap breakpoints
+
+// * X-Small = Less than 576px - small mobile devices
+@include x-small {
+}
+
+// * Small = Less than 768px - mobile devices
+@include small {
+}
+
+// * Medium = Less than 992px - tablets
+@include medium {
+}
+
+// * Large = Less than 1200px - small desktops
+@include large {
+}
+
+// * Extra Large = Less than 1399px - medium desktops
+@include extra-large {
+}
+
+// * Extra EXTRA Large = More than 1400px - medium desktops
+@include extra-extra-large {
+}

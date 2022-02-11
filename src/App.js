@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+// ? Main scss
+import styles from "./Styling/app.module.scss";
+
+// ? All Component and View imports
+import LoadingBar from "./Components/LoadingBar/LoadingBar";
+import Header from "./Components/Header/Header";
+import MainContent from "./Components/MainContent/MainContent";
+import Hamburger from "./Components/Hamburger/Hamburger";
+
+const App = () => {
+    return (
+        <>
+            {/* <Hamburger /> */}
+            <LoadingBar />
+            <Header />
+            <MainContent />
+            {/* <div>test</div> */}
+        </>
+    );
+};
 
 export default App;

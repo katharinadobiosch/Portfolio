@@ -1,0 +1,85 @@
+.loading-bar {
+  overflow: hidden;
+  position: absolute;
+  width: 100vw;
+  height: 0.5vh;
+  background: #23262e;
+  z-index: 10;
+  -webkit-animation: loader 1s ease;
+          animation: loader 1s ease;
+}
+
+@-webkit-keyframes loader {
+  0% {
+    width: 0;
+  }
+  20% {
+    width: 10%;
+  }
+  25% {
+    width: 24%;
+  }
+  43% {
+    width: 41%;
+  }
+  56% {
+    width: 50%;
+  }
+  66% {
+    width: 52%;
+  }
+  71% {
+    width: 60%;
+  }
+  75% {
+    width: 76%;
+  }
+  94% {
+    width: 86%;
+  }
+  99% {
+    width: 99%;
+  }
+  100% {
+    width: 100%;
+    background: #ff00aa;
+  }
+}
+
+@keyframes loader {
+  0% {
+    width: 0;
+  }
+  20% {
+    width: 10%;
+  }
+  25% {
+    width: 24%;
+  }
+  43% {
+    width: 41%;
+  }
+  56% {
+    width: 50%;
+  }
+  66% {
+    width: 52%;
+  }
+  71% {
+    width: 60%;
+  }
+  75% {
+    width: 76%;
+  }
+  94% {
+    width: 86%;
+  }
+  99% {
+    width: 99%;
+  }
+  100% {
+    width: 100%;
+    background: #ff00aa;
+  }
+}
+/*# sourceMappingURL=LoadingBar.module.css.map */

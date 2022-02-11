@@ -1,0 +1,41 @@
+@import "../../Styling/variables.module";
+@import "../../Styling/mixins.module";
+@import "../../Styling/fonts.module";
+@import "../../Styling/reset.module";
+
+.main-container {
+    color: $offWhite;
+    font-size: 4.1rem;
+    // font-weight: 700;
+    line-height: 134%;
+}
+
+.content span {
+    color: $yellow;
+}
+// ? Media Queries
+// Based on Bootstrap breakpoints
+
+// * X-Small = Less than 576px - small mobile devices
+@include x-small {
+}
+
+// * Small = Less than 768px - mobile devices
+@include small {
+}
+
+// * Medium = Less than 992px - tablets
+@include medium {
+}
+
+// * Large = Less than 1200px - small desktops
+@include large {
+}
+
+// * Extra Large = Less than 1399px - medium desktops
+@include extra-large {
+}
+
+// * Extra EXTRA Large = More than 1400px - medium desktops
+@include extra-extra-large {
+}
