@@ -1,8 +1,8 @@
 import React from "react";
-import styles from "../DivContainer/DivContainer.module.scss";
+import styles from "../About/About.module.scss";
 // import HamburgerMenu from "./HamburgerMenu";
 
-const DivContainer = () => {
+const About = () => {
     return (
         <>
             <div id="about" className={styles["main-container"]}>
@@ -35,4 +35,4 @@ const DivContainer = () => {
     );
 };
 
-export default DivContainer;
+export default About;

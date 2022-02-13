@@ -8,10 +8,16 @@
     font-size: 4.1rem;
     // font-weight: 700;
     line-height: 134%;
+    margin-top: 10vh;
+}
+
+.content p {
+    font-family: $sourceCodePro-semiBold;
 }
 
 .content span {
     color: $yellow;
+    font-family: $sourceCodePro-semiBold;
 }
 // ? Media Queries
 // Based on Bootstrap breakpoints

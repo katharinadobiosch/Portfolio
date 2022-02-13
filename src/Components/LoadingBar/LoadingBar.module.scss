@@ -4,8 +4,8 @@
 @import "../../Styling/reset.module";
 
 .loading-bar {
-    // overflow: hidden;
-    // position: absolute;
+    overflow: hidden;
+    position: absolute;
     width: 100vw;
     height: 0.5vh;
     background: $nearlyBlack;

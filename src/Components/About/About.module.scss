@@ -5,12 +5,14 @@
 
 .main-container {
     color: $offWhite;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
     // border: 1px solid green;
 }
 
 .opening-tag span {
     // border: 1px solid blue;
-    font-family: $sourceCodePro-light;
+    font-family: $main-font;
     // font-family: $sourceCodePro-black;
 }
 
@@ -29,7 +31,7 @@
 }
 
 .content {
-    font-family: $sourceCodePro-light;
+    font-family: $main-font;
     font-size: 1.5rem;
     text-align: justify;
     margin-top: 5vh;

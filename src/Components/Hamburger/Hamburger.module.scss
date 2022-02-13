@@ -3,149 +3,34 @@
 @import "../../Styling/fonts.module";
 @import "../../Styling/reset.module";
 
-.menuToggle {
-    // border: 1px solid blue;
-    display: block;
-    position: relative;
-    float: right;
-    // top: 50px;
-    // left: 50px;
-
-    z-index: 1;
-
-    -webkit-user-select: none;
-    user-select: none;
-}
-
-.menuToggle a {
-    text-decoration: none;
-    color: #232323;
-
-    transition: color 0.3s ease;
-}
-
-.menuToggle a:hover {
-    color: tomato;
-}
-
-.menuToggle input {
-    display: block;
-    width: 40px;
-    height: 40px;
+.styled.button {
     position: absolute;
-    float: right;
-    top: -7px;
-    left: -5px;
-
+    top: 5%;
+    left: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 2rem;
+    height: 2rem;
+    background: transparent;
+    border: none;
     cursor: pointer;
+    padding: 0;
+    z-index: 10;
 
-    opacity: 0; /* hide this */
-    z-index: 2; /* and place it over the hamburger */
-
-    -webkit-touch-callout: none;
+    &:focus {
+        outline: none;
+    }
 }
 
-/*
- * Just a quick hamburger
- */
-.menuToggle span {
-    display: block;
-    width: 33px;
-    height: 4px;
-    margin-bottom: 5px;
+.div {
+    width: 2rem;
+    height: 0.25rem;
+    background: pink;
+    border-radius: 10px;
+    transition: all 0.3s linear;
     position: relative;
-
-    background: #cdcdcd;
-    border-radius: 3px;
-
-    z-index: 1;
-
-    transform-origin: 4px 0px;
-
-    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1),
-        background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
-}
-
-.menuToggle span:first-child {
-    transform-origin: 0% 0%;
-}
-
-.menuToggle span:nth-last-child(2) {
-    transform-origin: 0% 100%;
-}
-
-/* 
- * Transform all the slices of hamburger
- * into a crossmark.
- */
-.menuToggle input:checked ~ span {
-    opacity: 1;
-    transform: rotate(45deg) translate(-2px, -1px);
-    background: $yellow;
-}
-
-/*
- * But let's hide the middle one.
- */
-.menuToggle input:checked ~ span:nth-last-child(3) {
-    opacity: 0;
-    transform: rotate(0deg) scale(0.2, 0.2);
-}
-
-/*
- * Ohyeah and the last one should go the other direction
- */
-.menuToggle input:checked ~ span:nth-last-child(2) {
-    transform: rotate(-45deg) translate(0, -1px);
-}
-
-/*
- * Make this absolute positioned
- * at the top left of the screen
- */
-.menu {
-    // border: 2px solid red;
-    position: absolute;
-    float: right;
-    width: 100vw;
-    height: 100vh;
-
-    margin: -7vh 0 0 -92vw;
-    // padding: 10vh 10vw 10vh 5vw;
-    // margin-top: -30px;
-    // margin-right: 0;
-    // margin-bottom: 0;
-    // margin-left: -90vw;
-    // padding-right: 50px;
-    padding-top: 10vh;
-
-    background: rgba(0, 0, 0, 0.8);
-    opacity: 0.9;
-    list-style-type: none;
-    -webkit-font-smoothing: antialiased;
-    /* to stop flickering of text in safari */
-
-    transform-origin: 0% 0%;
-    transform: translate(-100%, 0);
-
-    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
-}
-
-.menu li {
-    background: rgba(0, 0, 0, 0.8);
-    // border: 1px solid blue;
-    // padding: 10px 0;
-    padding-right: 10vw;
-    // padding-top: 10vh;
-    font-size: 22px;
-    text-align: right;
-}
-
-/*
- * And let's slide it in from the left
- */
-.menuToggle input:checked ~ ul {
-    transform: none;
+    transform-origin: 1px;
 }
 
 // ? Media Queries
@@ -174,3 +59,138 @@
 // * Extra EXTRA Large = More than 1400px - medium desktops
 @include extra-extra-large {
 }
+
+// @import "../../Styling/variables.module";
+// @import "../../Styling/mixins.module";
+// @import "../../Styling/fonts.module";
+// @import "../../Styling/reset.module";
+
+// .menuToggle {
+//     // border: 1px solid blue;
+//     display: block;
+//     position: relative;
+//     float: right;
+//     // top: 50px;
+//     // left: 50px;
+
+//     z-index: 1;
+
+//     -webkit-user-select: none;
+//     user-select: none;
+// }
+
+// .menuToggle a {
+//     text-decoration: none;
+//     color: #232323;
+
+//     transition: color 0.3s ease;
+// }
+
+// .menuToggle a:hover {
+//     color: tomato;
+// }
+
+// .menuToggle input {
+//     display: block;
+//     width: 40px;
+//     height: 40px;
+//     position: absolute;
+//     float: right;
+//     top: -7px;
+//     left: -5px;
+
+//     cursor: pointer;
+
+//     opacity: 0; /* hide this */
+//     z-index: 2; /* and place it over the hamburger */
+
+//     -webkit-touch-callout: none;
+// }
+
+// /*
+//  * Just a quick hamburger
+//  */
+// .menuToggle span {
+//     display: block;
+//     width: 33px;
+//     height: 4px;
+//     margin-bottom: 5px;
+//     position: relative;
+
+//     background: #cdcdcd;
+//     border-radius: 3px;
+
+//     z-index: 1;
+
+//     transform-origin: 4px 0px;
+
+//     transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1),
+//         background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
+// }
+
+// .menuToggle span:first-child {
+//     transform-origin: 0% 0%;
+// }
+
+// .menuToggle span:nth-last-child(2) {
+//     transform-origin: 0% 100%;
+// }
+
+// /*
+//  * Transform all the slices of hamburger
+//  * into a crossmark.
+//  */
+// .menuToggle input:checked ~ span {
+//     opacity: 1;
+//     transform: rotate(45deg) translate(-2px, -1px);
+//     background: $yellow;
+// }
+
+// /*
+//  * But let's hide the middle one.
+//  */
+// .menuToggle input:checked ~ span:nth-last-child(3) {
+//     opacity: 0;
+//     transform: rotate(0deg) scale(0.2, 0.2);
+// }
+
+// /*
+//  * Ohyeah and the last one should go the other direction
+//  */
+// .menuToggle input:checked ~ span:nth-last-child(2) {
+//     transform: rotate(-45deg) translate(0, -1px);
+// }
+
+// .menu {
+//     width: 100vw;
+//     height: 200vh;
+//     opacity: 0.4;
+//     background-color: pink;
+// }
+
+// // ? Media Queries
+// // Based on Bootstrap breakpoints
+
+// // * X-Small = Less than 576px - small mobile devices
+// @include x-small {
+// }
+
+// // * Small = Less than 768px - mobile devices
+// @include small {
+// }
+
+// // * Medium = Less than 992px - tablets
+// @include medium {
+// }
+
+// // * Large = Less than 1200px - small desktops
+// @include large {
+// }
+
+// // * Extra Large = Less than 1399px - medium desktops
+// @include extra-large {
+// }
+
+// // * Extra EXTRA Large = More than 1400px - medium desktops
+// @include extra-extra-large {
+// }
