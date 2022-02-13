@@ -33,12 +33,6 @@ const Skills = () => {
                     React.
                 </div>
                 <div className={styles["icon-container"]}>
-                    {/* <div>1</div>
-                    <div>2</div>
-                    <div>3</div>
-                    <div>4</div>
-                    <div>5</div> */}
-
                     <FontAwesomeIcon icon={faHtml5} />
                     <FontAwesomeIcon icon={faCss3} />
                     <FontAwesomeIcon icon={faSass} />

@@ -39,6 +39,23 @@
     line-height: 150%;
 }
 
+.content span {
+    color: $yellow;
+}
+
+.download {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-size: 1.5rem;
+    color: $offWhite;
+    text-decoration: none;
+}
+
+.download div:nth-child(2) {
+    margin-left: 2vw;
+}
+
 // ? Media Queries
 // Based on Bootstrap breakpoints
 

@@ -39,16 +39,19 @@
     line-height: 150%;
 }
 
+
+
 .icon-container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    gap: 15vw;
+    justify-content: center;
+    align-content: center;
+    gap: 10vw;
 
-    font-size: 5rem;
+    font-size: 6rem;
 
-    margin-bottom: 5vh;
+    margin: 0vh 0vw 3vh 0vw;
 }
 
 // ? Media Queries
