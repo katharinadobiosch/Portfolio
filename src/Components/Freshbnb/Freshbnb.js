@@ -54,7 +54,7 @@ const Freshbnb = (props) => {
                         properties to legally wild camp! 🚌 I was responsible
                         for the Frontend, was the contact person and decision
                         maker for all design and styling questions, created the
-                        wireframe in Figma and of course worked on the frontend
+                        wireframe in Figma and of course worked on the Frontend
                         in React.
                     </div>
                 </div>

@@ -4,6 +4,8 @@ import styles from "../Projects/Projects.module.scss";
 import Freshbnb from "../../Components/Freshbnb/Freshbnb";
 import BurgerBuilder from "../../Components/BurgerBuilder/BurgerBuilder";
 import ExpensesApp from "../../Components/ExpensesApp/ExpensesApp";
+import FoodOrderApp from "../../Components/FoodOrderApp/FoodOrderApp";
+import BlogLayout from "../../Components/BlogLayout/BlogLayout";
 
 const Projects = () => {
     return (
@@ -26,6 +28,8 @@ const Projects = () => {
                             <Freshbnb />
                             <BurgerBuilder />
                             <ExpensesApp />
+                            <FoodOrderApp />
+                            <BlogLayout />
                         </div>
 
                         <div className={styles["burger-creator"]}></div>
