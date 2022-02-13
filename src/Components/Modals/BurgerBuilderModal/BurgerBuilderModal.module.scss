@@ -1,0 +1,100 @@
+@import "../../../Styling/variables.module";
+@import "../../../Styling/mixins.module";
+@import "../../../Styling/fonts.module";
+@import "../../../Styling/reset.module";
+
+.modal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-header {
+    padding: 1vh 0 1vh 1vh;
+    // background-color: green;
+    // width: auto;
+}
+
+.modal-content {
+    width: 90vw;
+}
+
+.modal-body {
+    // padding: 10px;
+    background-color: blue;
+
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: 80vh;
+}
+
+.modal-close {
+    cursor: pointer;
+    font-size: 4rem;
+}
+
+.modal-body iframe {
+    width: 100%;
+    // height: 10;
+}
+
+// .image-container {
+//     display: flex;
+//     justify-content: center;
+//     width: 100%;
+//     height: auto;
+
+//     margin-top: 2vh;
+// }
+
+// .image-container img {
+//     width: 100%;
+// }
+
+// ? Media Queries
+// Based on Bootstrap breakpoints
+
+// * X-Small = Less than 576px - small mobile devices
+@include x-small {
+}
+
+// * Small = Less than 768px - mobile devices
+@include small {
+}
+
+// * Medium = Less than 992px - tablets
+@include medium {
+}
+
+// * Large = Less than 1200px - small desktops
+@include large {
+    // .image-container img:hover {
+    //     transform: scale(1.5);
+    //     cursor: pointer;
+    // }
+}
+
+// * Extra Large = Less than 1399px - medium desktops
+@include extra-large {
+    // .image-container img:hover {
+    //     transform: scale(1.5);
+    //     cursor: pointer;
+    // }
+}
+
+// * Extra EXTRA Large = More than 1400px - medium desktops
+@include extra-extra-large {
+    // .image-container img:hover {
+    //     transform: scale(1.5);
+    //     cursor: pointer;
+    // }
+}
