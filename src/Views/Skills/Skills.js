@@ -28,8 +28,8 @@ const Skills = () => {
                     principles came naturally due to my design background.
                     Additionally, I have experience in MERN Stack, working with
                     SQLite, MySQL and MongoDB databases. During this time, I
-                    also realised that my heart definitely beats for frontend
-                    development, which is why I want to focus on HTML, CSS and
+                    also realised that my heart definitely beats for Frontend
+                    Development, which is why I want to focus on HTML, CSS and
                     React.
                 </div>
                 <div className={styles["icon-container"]}>

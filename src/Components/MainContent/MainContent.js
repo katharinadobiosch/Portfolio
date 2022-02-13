@@ -6,8 +6,9 @@ import styles from "../MainContent/MainContent.module.scss";
 
 // ? All Component and View imports
 import Welcome from "../../Views/Welcome/Welcome";
-import About from "../About/About";
-import Skills from "../Skills/Skills";
+import About from "../../Views/About/About";
+import Skills from "../../Views/Skills/Skills";
+import Projects from "../../Views/Projects/Projects";
 
 const MainContent = () => {
     return (
@@ -20,6 +21,7 @@ const MainContent = () => {
                     {/* ABOUT */}
                     <About />
                     <Skills />
+                    <Projects />
                 </div>
             </div>
         </>

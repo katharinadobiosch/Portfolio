@@ -7,13 +7,10 @@
     color: $offWhite;
     padding-top: 10vh;
     padding-bottom: 10vh;
-    // border: 1px solid green;
 }
 
 .opening-tag span {
-    // border: 1px solid blue;
     font-family: $main-font;
-    // font-family: $sourceCodePro-black;
 }
 
 .opening-tag span:nth-child(1),
@@ -38,8 +35,6 @@
     margin-bottom: 5vh;
     line-height: 150%;
 }
-
-
 
 .icon-container {
     display: flex;

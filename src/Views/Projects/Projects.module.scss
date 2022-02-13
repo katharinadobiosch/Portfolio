@@ -3,37 +3,6 @@
 @import "../../Styling/fonts.module";
 @import "../../Styling/reset.module";
 
-.header-container {
-    position: fixed;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    width: 100vw;
-
-    height: 8vh;
-}
-.content-container {
-    color: $offWhite;
-
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-
-    width: 90vw;
-}
-
-.logo {
-    letter-spacing: 1px;
-
-    width: auto;
-}
-
-.logo p:nth-child(2) {
-    letter-spacing: 2px;
-}
-
 // ? Media Queries
 // Based on Bootstrap breakpoints
 

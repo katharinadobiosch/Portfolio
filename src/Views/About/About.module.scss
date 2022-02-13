@@ -5,14 +5,54 @@
 
 .main-container {
     color: $offWhite;
-    font-size: 4.1rem;
-    // font-weight: 700;
-    line-height: 134%;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+.opening-tag span {
+    font-family: $main-font;
+}
+
+.opening-tag span:nth-child(1),
+.opening-tag span:nth-child(4),
+.closing-tag span:nth-child(1) {
+    color: $pink;
+}
+
+.opening-tag span:nth-child(2) {
+    color: $yellow;
+}
+
+.opening-tag span:nth-child(3) {
+    color: $green;
+}
+
+.content {
+    font-family: $main-font;
+    font-size: 1.5rem;
+    text-align: justify;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    line-height: 150%;
 }
 
 .content span {
     color: $yellow;
 }
+
+.download {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-size: 1.5rem;
+    color: $offWhite;
+    text-decoration: none;
+}
+
+.download div:nth-child(2) {
+    margin-left: 2vw;
+}
+
 // ? Media Queries
 // Based on Bootstrap breakpoints
 

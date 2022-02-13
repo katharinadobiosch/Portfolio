@@ -12,11 +12,9 @@ import Hamburger from "./Components/Hamburger/Hamburger";
 const App = () => {
     return (
         <>
-            {/* <Hamburger /> */}
             <LoadingBar />
             <Header />
             <MainContent />
-            {/* <div>test</div> */}
         </>
     );
 };
