@@ -8,6 +8,8 @@
     font-size: 4.1rem;
     line-height: 134%;
     margin-top: 10vh;
+
+    min-height: 100vh;
 }
 
 .content p {
@@ -35,12 +37,27 @@
 
 // * Large = Less than 1200px - small desktops
 @include large {
+    .main-container {
+        font-size: 5rem;
+
+        width: 70vw;
+    }
 }
 
 // * Extra Large = Less than 1399px - medium desktops
 @include extra-large {
+    .main-container {
+        font-size: 5rem;
+
+        width: 70vw;
+    }
 }
 
 // * Extra EXTRA Large = More than 1400px - medium desktops
 @include extra-extra-large {
+    .main-container {
+        font-size: 5rem;
+
+        width: 70vw;
+    }
 }

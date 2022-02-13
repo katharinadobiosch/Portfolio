@@ -3,6 +3,39 @@
 @import "../../Styling/fonts.module";
 @import "../../Styling/reset.module";
 
+.main-container {
+    color: $offWhite;
+
+    min-height: 92vh;
+
+    margin-top: 8vh;
+}
+
+.opening-tag span:nth-child(1),
+.opening-tag span:nth-child(4),
+.closing-tag span:nth-child(1) {
+    color: $pink;
+}
+
+.opening-tag span:nth-child(2) {
+    color: $yellow;
+}
+
+.opening-tag span:nth-child(3) {
+    color: $green;
+}
+
+.content-container {
+    font-family: $main-font;
+    font-size: 1.5rem;
+}
+.content {
+    text-align: justify;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    line-height: 150%;
+}
+
 // ? Media Queries
 // Based on Bootstrap breakpoints
 
@@ -20,12 +53,75 @@
 
 // * Large = Less than 1200px - small desktops
 @include large {
+    .main-container {
+        width: 70vw;
+    }
+
+    .opening-tag,
+    .closing-tag,
+    .content {
+        font-size: 2rem;
+    }
+
+    .content-container {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+
+        margin-right: 10vw;
+    }
+
+    .content {
+        width: 50vw;
+    }
 }
 
 // * Extra Large = Less than 1399px - medium desktops
 @include extra-large {
+    .main-container {
+        width: 70vw;
+    }
+
+    .opening-tag,
+    .closing-tag,
+    .content {
+        font-size: 2rem;
+    }
+
+    .content-container {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+
+        margin-right: 10vw;
+    }
+
+    .content {
+        width: 50vw;
+    }
 }
 
 // * Extra EXTRA Large = More than 1400px - medium desktops
 @include extra-extra-large {
+    .main-container {
+        width: 70vw;
+    }
+
+    .opening-tag,
+    .closing-tag,
+    .content {
+        font-size: 2rem;
+    }
+
+    .content-container {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+
+        margin-right: 10vw;
+    }
+
+    .content {
+        width: 50vw;
+    }
 }

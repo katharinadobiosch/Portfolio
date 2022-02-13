@@ -9,6 +9,7 @@ import Welcome from "../../Views/Welcome/Welcome";
 import About from "../../Views/About/About";
 import Skills from "../../Views/Skills/Skills";
 import Projects from "../../Views/Projects/Projects";
+import Contact from "../../Views/Contact/Contact";
 
 const MainContent = () => {
     return (
@@ -16,12 +17,11 @@ const MainContent = () => {
             <div className={styles["main-container"]}>
                 <div className={styles["content-container"]}>
                     <Welcome />
-                    {/* <About /> */}
 
-                    {/* ABOUT */}
                     <About />
                     <Skills />
                     <Projects />
+                    <Contact />
                 </div>
             </div>
         </>

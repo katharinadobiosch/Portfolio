@@ -1,30 +1,29 @@
 import React from "react";
-import styles from "../Projects/Projects.module.scss";
+import styles from "../Contact/Contact.module.scss";
 
-const Projects = () => {
+const Contact = () => {
     return (
         <>
             <div id="projects" className={styles["main-container"]}>
                 {/* // ?? OPENING TAG */}
                 <div className={styles["opening-tag"]}>
-                    <span>&lt;div </span>
-                    <span>id</span>=<span>"projects"</span>
+                    <span>&lt;form</span>
                     <span>&gt;</span>
                 </div>
                 {/* // ?? CONTENT */}
                 <div className={styles["content-container"]}>
                     <div className={styles.content}>
-                        PROJECTS PROJECTS PROJECTS{" "}
+                        CONTACT CONTACT CONTACT
                     </div>
                 </div>
 
                 {/* // ?? CLOSING TAG */}
                 <div className={styles["closing-tag"]}>
-                    <span>&lt;/div&gt;</span>
+                    <span>&lt;/form&gt;</span>
                 </div>
             </div>
         </>
     );
 };
 
-export default Projects;
+export default Contact;

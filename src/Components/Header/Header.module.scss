@@ -13,6 +13,7 @@
 
     height: 8vh;
 }
+
 .content-container {
     color: $offWhite;
 
@@ -51,12 +52,33 @@
 
 // * Large = Less than 1200px - small desktops
 @include large {
+    .content-container {
+        width: 70vw;
+    }
+
+    .logo {
+        font-size: 1.5rem;
+    }
 }
 
 // * Extra Large = Less than 1399px - medium desktops
 @include extra-large {
+    .content-container {
+        width: 70vw;
+    }
+
+    .logo {
+        font-size: 1.5rem;
+    }
 }
 
 // * Extra EXTRA Large = More than 1400px - medium desktops
 @include extra-extra-large {
+    .content-container {
+        width: 70vw;
+    }
+
+    .logo {
+        font-size: 1.5rem;
+    }
 }

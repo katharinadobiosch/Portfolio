@@ -5,12 +5,10 @@
 
 .main-container {
     color: $offWhite;
-    padding-top: 10vh;
-    padding-bottom: 10vh;
-}
 
-.opening-tag span {
-    font-family: $main-font;
+    min-height: 92vh;
+
+    margin-top: 8vh;
 }
 
 .opening-tag span:nth-child(1),
@@ -27,9 +25,11 @@
     color: $green;
 }
 
-.content {
+.content-container {
     font-family: $main-font;
     font-size: 1.5rem;
+}
+.content {
     text-align: justify;
     margin-top: 5vh;
     margin-bottom: 5vh;
@@ -70,12 +70,99 @@
 
 // * Large = Less than 1200px - small desktops
 @include large {
+    .main-container {
+        width: 70vw;
+    }
+
+    .opening-tag,
+    .closing-tag,
+    .content {
+        font-size: 2rem;
+    }
+
+    .content-container {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+
+        margin-right: 10vw;
+    }
+
+    .content {
+        width: 50vw;
+    }
+
+    .download {
+        font-size: 2rem;
+    }
+
+    .download div:nth-child(2) {
+        margin-left: 1vw;
+    }
 }
 
 // * Extra Large = Less than 1399px - medium desktops
 @include extra-large {
+    .main-container {
+        width: 70vw;
+    }
+
+    .opening-tag,
+    .closing-tag,
+    .content {
+        font-size: 2rem;
+    }
+
+    .content-container {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+
+        margin-right: 10vw;
+    }
+
+    .content {
+        width: 50vw;
+    }
+
+    .download {
+        font-size: 2rem;
+    }
+
+    .download div:nth-child(2) {
+        margin-left: 1vw;
+    }
 }
 
 // * Extra EXTRA Large = More than 1400px - medium desktops
 @include extra-extra-large {
+    .main-container {
+        width: 70vw;
+    }
+
+    .opening-tag,
+    .closing-tag,
+    .content {
+        font-size: 2rem;
+    }
+
+    .content-container {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+
+        margin-right: 10vw;
+    }
+
+    .content {
+        width: 50vw;
+    }
+
+    .download {
+        font-size: 2rem;
+    }
+
+    .download div:nth-child(2) {
+        margin-left: 1vw;
+    }
 }
