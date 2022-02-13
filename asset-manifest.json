@@ -1,9 +1,11 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.1e52482e.css",
-    "main.js": "/portfolio/static/js/main.70332ba5.js",
+    "main.css": "/portfolio/static/css/main.9d1bd474.css",
+    "main.js": "/portfolio/static/js/main.98b422c5.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/freshbnb.png": "/portfolio/static/media/freshbnb.87edc3a3f4d2e645bbdf.png",
     "static/media/CV_portfolio.pdf": "/portfolio/static/media/CV_portfolio.f4dd15d3b507b02b2815.pdf",
+    "static/media/expenses_app.png": "/portfolio/static/media/expenses_app.e20bfc5c3421d01ec594.png",
     "static/media/burger_builder.png": "/portfolio/static/media/burger_builder.fbf4bdf74e256872236f.png",
     "static/media/SourceCodePro-Bold.woff": "/portfolio/static/media/SourceCodePro-Bold.2fd43fb4cbefa9175667.woff",
     "static/media/SourceCodePro-Regular.woff": "/portfolio/static/media/SourceCodePro-Regular.186da05a848f7501a9a4.woff",
@@ -13,12 +15,12 @@
     "static/media/SourceCodePro-Black.woff": "/portfolio/static/media/SourceCodePro-Black.80a413ef85118fe699e7.woff",
     "static/media/SourceCodePro-ExtraLight.woff": "/portfolio/static/media/SourceCodePro-ExtraLight.5d41d13c63f410dcf0d1.woff",
     "index.html": "/portfolio/index.html",
-    "main.1e52482e.css.map": "/portfolio/static/css/main.1e52482e.css.map",
-    "main.70332ba5.js.map": "/portfolio/static/js/main.70332ba5.js.map",
+    "main.9d1bd474.css.map": "/portfolio/static/css/main.9d1bd474.css.map",
+    "main.98b422c5.js.map": "/portfolio/static/js/main.98b422c5.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1e52482e.css",
-    "static/js/main.70332ba5.js"
+    "static/css/main.9d1bd474.css",
+    "static/js/main.98b422c5.js"
   ]
 }
