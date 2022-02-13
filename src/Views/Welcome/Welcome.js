@@ -15,7 +15,10 @@ const Welcome = () => {
                         A Full Stack Web Developer with a design background and
                         a focus on Frontend Development.
                     </p>
-                    <p>I live in Berlin.</p>
+                    <p>
+                        I don't have a cat, but I'm such a cat person. I live in
+                        Berlin.
+                    </p>
                 </div>
             </div>
         </>
