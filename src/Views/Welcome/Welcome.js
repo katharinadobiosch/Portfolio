@@ -5,7 +5,7 @@ import styles from "../Welcome/Welcome.module.scss";
 const Welcome = () => {
     return (
         <>
-            <div className={styles["main-container"]}>
+            <div id="welcome" className={styles["main-container"]}>
                 <div className={styles.content}>
                     <p>Hi, nice to see you :)</p>
                     <p>

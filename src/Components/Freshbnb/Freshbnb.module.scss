@@ -60,6 +60,7 @@
 @include large {
     .image-container img:hover {
         transform: scale(1.4);
+        transition: all 0.8s ease;
     }
 }
 
@@ -67,6 +68,7 @@
 @include extra-large {
     .image-container img:hover {
         transform: scale(1.4);
+        transition: all 0.8s ease;
     }
 }
 
@@ -74,6 +76,6 @@
 @include extra-extra-large {
     .image-container img:hover {
         transform: scale(1.4);
-        transition: all 0.4s ease;
+        transition: all 0.8s ease;
     }
 }

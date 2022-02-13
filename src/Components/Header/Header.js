@@ -9,8 +9,10 @@ const Header = () => {
             <div className={styles["header-container"]}>
                 <div className={styles["content-container"]}>
                     <div className={styles.logo}>
-                        <p>KATHARINA</p>
-                        <p>DOBIOSCH</p>
+                        <a href="#welcome">
+                            <p>KATHARINA</p>
+                            <p>DOBIOSCH</p>
+                        </a>
                     </div>
                     <div className={styles.menu}>
                         <Hamburger />
