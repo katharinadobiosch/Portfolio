@@ -18,6 +18,7 @@
 }
 
 .modal-container {
+    // background-color: white;
     width: 90vw;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -41,6 +42,7 @@
 .modal-body iframe {
     width: 100%;
     border: none;
+    background-color: white;
 }
 
 // ? Media Queries

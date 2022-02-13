@@ -1,13 +1,13 @@
 import React, { useState } from "react";
-import styles from "../BurgerBuilder/BurgerBuilder.module.scss";
+import styles from "../ExpensesApp/ExpensesApp.module.scss";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
-import BurgerBuilderImg from "../BurgerBuilder/static/burger_builder.png";
-import BurgerBuilderModal from "../Modals/BurgerBuilderModal/BurgerBuilderModal";
+import ExpensesAppImg from "../ExpensesApp/static/expenses_app.png";
+import ExpensesAppModal from "../Modals/ExpensesAppModal/ExpensesAppModal";
 
-const BurgerBuilder = (props) => {
+const ExpensesApp = (props) => {
     const [showModal, setShowModal] = useState(false);
 
     const openModal = (event) => {
@@ -25,25 +25,25 @@ const BurgerBuilder = (props) => {
             <div className={styles["content-container"]}>
                 <div className={styles["image-container"]} onClick={openModal}>
                     <img
-                        src={BurgerBuilderImg}
-                        alt="Burger Builder"
+                        src={ExpensesAppImg}
+                        alt="ExpensesApp"
                         onClick={openModal}
                     />
-                    <BurgerBuilderModal onClose={closeModal} show={showModal} />
+                    <ExpensesAppModal onClose={closeModal} show={showModal} />
                 </div>
 
                 <div className={styles.content}>
                     <div className={styles.heading}>
                         <a
-                            href="https://katharinadobiosch.github.io/burger-builder/"
+                            href="https://katharinadobiosch.github.io/Expenses-App/"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                            BURGER BUILDER
+                            EXPENSES APP
                         </a>
 
                         <a
-                            href="https://github.com/katharinadobiosch/burger-builder"
+                            href="https://github.com/katharinadobiosch/Expenses-App/"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
@@ -52,15 +52,14 @@ const BurgerBuilder = (props) => {
                     </div>
 
                     <div className={styles.description}>
-                        Biscuit lollipop jujubes ice cream cake soufflé brownie
-                        jujubes halvah. Lemon drops soufflé caramels liquorice
-                        gummi bears ice cream icing candy canes. Chupa chups
-                        chocolate bar cake bonbon gingerbread dessert donut
-                        gummies cake. Cake cupcake soufflé fruitcake sesame
-                        snaps ice cream sweet cake. Chocolate cake bonbon
-                        chocolate bar dessert biscuit. Dragée lemon drops
-                        gummies dessert chocolate bar lemon drops chocolate
-                        topping cheesecake.
+                        Fun Fact: I started to write the code for this project
+                        when I was in Mallorca with my sister. One day we were
+                        on the beach and next to us was a family. The mother and
+                        her children had brown hair and looked like they were
+                        kissed by the sun, she was wearing a beige bikini, they
+                        were sitting on a beige blanket and had a beige parasol.
+                        We called them the „beige family“ and I got inspired
+                        from them for my color theme.
                     </div>
                 </div>
             </div>
@@ -68,4 +67,4 @@ const BurgerBuilder = (props) => {
     );
 };
 
-export default BurgerBuilder;
+export default ExpensesApp;

@@ -1,13 +1,10 @@
 import React, { useState } from "react";
-import styles from "../../Modals/BurgerBuilderModal/BurgerBuilderModal.module.scss";
+import styles from "../../Modals/ExpensesAppModal/ExpensesAppModal.module.scss";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faXmark } from "@fortawesome/free-solid-svg-icons";
 
-// import BurgerBuilderImg from "../BurgerBuilder/static/burger_builder.png";
-
-const BurgerBuilderModal = (props) => {
+const ExpensesAppModal = (props) => {
     if (!props.show) {
         return null;
     }
@@ -31,8 +28,8 @@ const BurgerBuilderModal = (props) => {
                         </div>
                         <div className={styles["modal-body"]}>
                             <iframe
-                                title="Burger Builder"
-                                src="https://katharinadobiosch.github.io/burger-builder"
+                                title="Expenses App"
+                                src="https://katharinadobiosch.github.io/Expenses-App/"
                             ></iframe>
                         </div>
                     </div>
@@ -42,4 +39,4 @@ const BurgerBuilderModal = (props) => {
     );
 };
 
-export default BurgerBuilderModal;
+export default ExpensesAppModal;
