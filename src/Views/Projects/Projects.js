@@ -21,9 +21,7 @@ const Projects = () => {
                 <div className={styles["content-container"]}>
                     <div className={styles.content}>
                         {/* PROJECTS PROJECTS PROJECTS{" "} */}
-                        <div>
-                            Here are a few projects I have worked on recently
-                        </div>
+
                         <div>
                             <Freshbnb />
                             <BurgerBuilder />
