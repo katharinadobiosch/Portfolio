@@ -13,7 +13,33 @@ const Contact = () => {
                 {/* // ?? CONTENT */}
                 <div className={styles["content-container"]}>
                     <div className={styles.content}>
-                        CONTACT CONTACT CONTACT
+                        <form
+                            action="https://usebasin.com/f/e3757595a834
+"
+                            method="POST"
+                            className={styles.form}
+                        >
+                            <input
+                                type="text"
+                                name="username"
+                                placeholder="Your name"
+                            />
+                            <input
+                                type="email"
+                                id="email"
+                                name="email"
+                                placeholder="Your E-Mail"
+                                required
+                            />
+                            <textarea
+                                type="text"
+                                placeholder="Drop me a line :)"
+                            />
+
+                            <div className={styles.button_container}>
+                                <button type="submit">Send</button>
+                            </div>
+                        </form>
                     </div>
                 </div>
 

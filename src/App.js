@@ -19,12 +19,12 @@ const App = () => {
             <Header />
             <MainContent />
             {/* <BrowserRouter> */}
-            <Routes>
+            {/* <Routes>
                 <Route
                     path="/portfolio/project/:id"
                     element={<Modal />}
                 ></Route>
-            </Routes>
+            </Routes> */}
             {/* <Link to="/portfolio/project/:id" element={<Modal />}></Link> */}
 
             {/* </BrowserRouter> */}

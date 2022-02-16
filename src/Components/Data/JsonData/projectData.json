@@ -4,9 +4,9 @@
         "title": "FRESHBNB",
         "link": "https://freshbnb.vercel.app/",
         "gitHubLink": "https://github.com/ediheid/frontend-dci-final-group-project",
-        "description": "Biscuit lollipop jujubes ice cream cake soufflé brownie jujubes halvah. Lemon drops soufflé caramels liquorice gummi bears ice cream icing candy canes. Chupa chups chocolate bar cake bonbon gingerbread dessert donut gummies cake. Cake cupcake soufflé fruitcake sesame snaps ice cream sweet cake. Chocolate cake bonbon chocolate bar dessert biscuit. Dragée lemon drops gummies dessert chocolate bar lemon drops chocolate topping cheesecake.",
-        "image": "../Projects/static/freshbnb.png",
-        "imgAlt": ""
+        "description": "Freshbnb is a mock property booking and hosting platform for caravans and buses. Inspired by the pandemic and Airbnb. This is the client side of the final group project for one year intensive web development training at the Digital Career Institute. I was responsible for the Frontend, was the contact person and decision maker for all design and styling questions, created the wireframe in Figma in advance and of course worked on the Frontend in React.",
+        "image": "../freshbnb.png",
+        "imgAlt": "Test alt description"
     },
     {
         "id": "02",
@@ -14,8 +14,8 @@
         "link": "https://katharinadobiosch.github.io/burger-builder/",
         "gitHubLink": "https://github.com/katharinadobiosch/burger-builder/",
         "description": "Biscuit lollipop jujubes ice cream cake soufflé brownie jujubes halvah. Lemon drops soufflé caramels liquorice gummi bears ice cream icing candy canes. Chupa chups chocolate bar cake bonbon gingerbread dessert donut gummies cake. Cake cupcake soufflé fruitcake sesame snaps ice cream sweet cake. Chocolate cake bonbon chocolate bar dessert biscuit. Dragée lemon drops gummies dessert chocolate bar lemon drops chocolate topping cheesecake.",
-        "image": "https://bln-directus.test.bd24.dev/_/assets/b6p34893ha80cwws",
-        "imgAlt": ""
+        "image": "/burger_builder.png",
+        "imgAlt": "Test alt description"
     },
     {
         "id": "03",
@@ -24,7 +24,7 @@
         "gitHubLink": "https://github.com/katharinadobiosch/food-order-app",
         "description": "Biscuit lollipop jujubes ice cream cake soufflé brownie jujubes halvah. Lemon drops soufflé caramels liquorice gummi bears ice cream icing candy canes. Chupa chups chocolate bar cake bonbon gingerbread dessert donut gummies cake. Cake cupcake soufflé fruitcake sesame snaps ice cream sweet cake. Chocolate cake bonbon chocolate bar dessert biscuit. Dragée lemon drops gummies dessert chocolate bar lemon drops chocolate topping cheesecake.",
         "image": "https://bln-directus.test.bd24.dev/_/assets/b6p34893ha80cwws",
-        "imgAlt": ""
+        "imgAlt": "Test alt description"
     },
     {
         "id": "04",
@@ -33,7 +33,7 @@
         "gitHubLink": "https://github.com/katharinadobiosch/Expenses-App",
         "description": "Fun Fact: I started to write the code for this project when I was in Mallorca with my sister. One day we were on the beach and next to us was a family. The mother and her children had brown hair and looked like they were kissed by the sun, she was wearing a beige bikini, they were sitting on a beige blanket and had a beige parasol. We called them the „beige family“ and I got inspired from them for my color theme..",
         "image": "https://bln-directus.test.bd24.dev/_/assets/b6p34893ha80cwws",
-        "imgAlt": ""
+        "imgAlt": "Test alt description"
     },
     {
         "id": "05",
@@ -42,6 +42,6 @@
         "gitHubLink": "https://github.com/katharinadobiosch/cooking-blog-layout",
         "description": "Biscuit lollipop jujubes ice cream cake soufflé brownie jujubes halvah. Lemon drops soufflé caramels liquorice gummi bears ice cream icing candy canes. Chupa chups chocolate bar cake bonbon gingerbread dessert donut gummies cake. Cake cupcake soufflé fruitcake sesame snaps ice cream sweet cake. Chocolate cake bonbon chocolate bar dessert biscuit. Dragée lemon drops gummies dessert chocolate bar lemon drops chocolate topping cheesecake.",
         "image": "https://bln-directus.test.bd24.dev/_/assets/b6p34893ha80cwws",
-        "imgAlt": ""
+        "imgAlt": "Test alt description"
     }
 ]

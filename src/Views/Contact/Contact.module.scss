@@ -27,6 +27,51 @@
     line-height: 150%;
 }
 
+form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
+    // border: 1px solid green;
+}
+
+input,
+textarea {
+    font-size: 1.5rem;
+    color: $nearlyBlack;
+
+    margin-bottom: 1vh;
+    background-color: white;
+
+    border: none;
+
+    padding: 1vh 0 1vh 1vh;
+}
+
+textarea {
+    height: 30vh;
+    resize: none;
+}
+
+.button_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+button {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: $nearlyBlack;
+
+    background-color: $offWhite;
+    // width: 30vw;
+    padding: 1vh 10vw 1vh 10vw;
+    border: none;
+
+    cursor: pointer;
+}
+
 // ? Media Queries
 // Based on Bootstrap breakpoints
 
@@ -65,6 +110,10 @@
     .content {
         width: 50vw;
     }
+
+    button {
+        padding: 1vh 5vw 1vh 5vw;
+    }
 }
 
 // * Extra Large = Less than 1399px - medium desktops
@@ -90,6 +139,10 @@
     .content {
         width: 50vw;
     }
+
+    button {
+        padding: 1vh 5vw 1vh 5vw;
+    }
 }
 
 // * Extra EXTRA Large = More than 1400px - medium desktops
@@ -114,5 +167,9 @@
 
     .content {
         width: 50vw;
+    }
+
+    button {
+        padding: 1vh 5vw 1vh 5vw;
     }
 }

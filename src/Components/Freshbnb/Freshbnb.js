@@ -4,8 +4,9 @@ import styles from "../Freshbnb/Freshbnb.module.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
-import FreshbnbImg from "../Freshbnb/static/freshbnb.png";
+// import FreshbnbImg from "../Freshbnb/static/freshbnb.png";
 import FreshbnbModal from "../Modals/FreshbnbModal/FreshbnbModal";
+
 
 const Freshbnb = (props) => {
     const [showModal, setShowModal] = useState(false);
