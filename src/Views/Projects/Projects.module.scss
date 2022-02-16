@@ -25,15 +25,56 @@
     color: $green;
 }
 
+// NEW
 .content-container {
     font-family: $main-font;
     font-size: 1.5rem;
 }
+
 .content {
     text-align: justify;
     margin-top: 5vh;
     margin-bottom: 5vh;
     line-height: 150%;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+
+    margin-top: 2vh;
+
+    cursor: pointer;
+}
+
+.image-container img {
+    width: 100%;
+}
+
+.content {
+    margin-top: 1vh;
+}
+
+.heading {
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+
+    cursor: pointer;
+}
+
+.heading a {
+    color: $offWhite;
+    text-decoration: none;
+
+    margin-top: 1vh;
+}
+
+.description {
+    margin-top: 1vh;
+    margin-bottom: 10vh;
 }
 
 // ? Media Queries
