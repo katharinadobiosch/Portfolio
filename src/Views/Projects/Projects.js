@@ -46,24 +46,26 @@ const Projects = () => {
                         <div className={styles["content-container"]}>
                             <div className={styles.content}>
                                 {/* // MAP THROUGH JSON DATA */}
-                                <div
-                                    className={styles["image-container"]}
-                                    onClick={openModal}
-                                >
-                                    <img
-                                        src={project.image}
-                                        alt={project.imgAlt}
+                                <Link to={`/portfolio/${project.id}`}>
+                                    <div
+                                        className={styles["image-container"]}
                                         onClick={openModal}
-                                    />
-                                    {/* <BurgerBuilderModal
-                                        onClose={closeModal}
-                                        show={showModal}
-                                    /> */}
-                                    <Modal
-                                        onClose={closeModal}
-                                        show={showModal}
-                                    />
-                                </div>
+                                    >
+                                        <img
+                                            src={project.image}
+                                            alt={project.imgAlt}
+                                            onClick={openModal}
+                                        />
+                                        {/* <BurgerBuilderModal
+                                            onClose={closeModal}
+                                            show={showModal}
+                                        /> */}
+                                        <Modal
+                                            onClose={closeModal}
+                                            show={showModal}
+                                        />
+                                    </div>
+                                </Link>
 
                                 <div className={styles.content}>
                                     <div className={styles.heading}>

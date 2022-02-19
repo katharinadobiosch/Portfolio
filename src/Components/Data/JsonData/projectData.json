@@ -5,7 +5,7 @@
         "link": "https://freshbnb.vercel.app/",
         "gitHubLink": "https://github.com/ediheid/frontend-dci-final-group-project",
         "description": "Freshbnb is a mock property booking and hosting platform for caravans and buses. Inspired by the pandemic and Airbnb. This is the client side of the final group project for one year intensive web development training at the Digital Career Institute. I was responsible for the Frontend, was the contact person and decision maker for all design and styling questions, created the wireframe in Figma in advance and of course worked on the Frontend in React.",
-        "image": "../freshbnb.png",
+        "image": "/Components/Data/static/freshbnb.png",
         "imgAlt": "Test alt description"
     },
     {
@@ -14,7 +14,7 @@
         "link": "https://katharinadobiosch.github.io/burger-builder/",
         "gitHubLink": "https://github.com/katharinadobiosch/burger-builder/",
         "description": "Biscuit lollipop jujubes ice cream cake soufflé brownie jujubes halvah. Lemon drops soufflé caramels liquorice gummi bears ice cream icing candy canes. Chupa chups chocolate bar cake bonbon gingerbread dessert donut gummies cake. Cake cupcake soufflé fruitcake sesame snaps ice cream sweet cake. Chocolate cake bonbon chocolate bar dessert biscuit. Dragée lemon drops gummies dessert chocolate bar lemon drops chocolate topping cheesecake.",
-        "image": "/burger_builder.png",
+        "image": "/Components/Data/static/burger_builder.png",
         "imgAlt": "Test alt description"
     },
     {

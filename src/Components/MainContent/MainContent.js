@@ -1,4 +1,5 @@
 import React from "react";
+import { BrowserRouter, Routes, Route, Router } from "react-router-dom";
 
 // ? Main scss
 
@@ -10,6 +11,7 @@ import About from "../../Views/About/About";
 import Skills from "../../Views/Skills/Skills";
 import Projects from "../../Views/Projects/Projects";
 import Contact from "../../Views/Contact/Contact";
+import Modal from "../../Components/Modals/Modal/Modal";
 
 const MainContent = () => {
     return (
@@ -22,6 +24,18 @@ const MainContent = () => {
                     <Skills />
                     <Projects />
                     <Contact />
+
+                    {/* <BrowserRouter> */}
+                    <Routes>
+                        <Route
+                            path="/portfolio/:id"
+                            element={<Modal />}
+                        ></Route>
+                    </Routes>
+                    {/* </BrowserRouter> */}
+                    {/* <Router>
+                        <Route path="/portfolio/:id" element={<Modal />} />
+                    </Router> */}
                 </div>
             </div>
         </>
