@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.ff3d2465.css",
-    "main.js": "/portfolio/static/js/main.88566d68.js",
+    "main.css": "/portfolio/static/css/main.e3a07dd1.css",
+    "main.js": "/portfolio/static/js/main.ebd96972.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/CV_portfolio.pdf": "/portfolio/static/media/CV_portfolio.f4dd15d3b507b02b2815.pdf",
     "static/media/SourceCodePro-Bold.woff": "/portfolio/static/media/SourceCodePro-Bold.2fd43fb4cbefa9175667.woff",
@@ -12,12 +12,12 @@
     "static/media/SourceCodePro-Black.woff": "/portfolio/static/media/SourceCodePro-Black.80a413ef85118fe699e7.woff",
     "static/media/SourceCodePro-ExtraLight.woff": "/portfolio/static/media/SourceCodePro-ExtraLight.5d41d13c63f410dcf0d1.woff",
     "index.html": "/portfolio/index.html",
-    "main.ff3d2465.css.map": "/portfolio/static/css/main.ff3d2465.css.map",
-    "main.88566d68.js.map": "/portfolio/static/js/main.88566d68.js.map",
+    "main.e3a07dd1.css.map": "/portfolio/static/css/main.e3a07dd1.css.map",
+    "main.ebd96972.js.map": "/portfolio/static/js/main.ebd96972.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ff3d2465.css",
-    "static/js/main.88566d68.js"
+    "static/css/main.e3a07dd1.css",
+    "static/js/main.ebd96972.js"
   ]
 }
